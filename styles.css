@@ -9,8 +9,16 @@ div {
     text-align: center;
 }
 .color {
-    color: crimson;
+    color: darkred;
 }
 h1 {
-    text-align: center;
+    text-align: center; font-family: 'Times New Roman', Times, serif;
 }
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#columnas{
+    column-count:2;
+    column-gap:50px;
+
+ }
