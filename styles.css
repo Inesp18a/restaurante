@@ -1,3 +1,16 @@
+a:link  {
+    color: gold;
+}
+a:visited { color: rgb(139, 0, 0); 
+}
+a:hover { 
+   color: rgb(6, 65, 14);
+   background-color: rgba(221, 219, 101, 0.705);
+   font-family: impact; 
+}
+a:active {
+    color: navy ;
+}
 body {
     background-color: rgb(112, 219, 185);
 }
@@ -17,9 +30,7 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#columnas{
+#columnas {
     column-count:2;
     column-gap:50px;
-
  }
-.class {font-size: large;}
